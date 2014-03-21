@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Купи футболку!</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{{ asset('public/style.css') }}" type="text/css">
+</head>
+<body>
+<nav id="menu">
+    <a href="{{ path('vizitka_homepage') }}" class="">
+        ОБО МНЕ
+    </a>
+    <a href="{{ path('vizitka_service') }}" class="">
+        ЗАКАЖИ СЕБЕ САЙТ, ЗАСРАНЕЦ!
+    </a>
+    <a href="." class="selected">
+        КУПИ ФУТБОЛКУ, ЗАСРАНЕЦ!
+    </a>
+</nav>
+
+
+<section id="content">
+    <div class="content">
+        <a >
+            <h2>ЦЕНЫ НАЧИНАЮТСЯ ОТ 300 сом</h2>
+        </a>
+
+
+
+        <img src="{{ asset('public/tshirt_front.png') }}" id="tshirt">
+        <img src="{{ asset('public/tshirt_back.png') }}" id="tshirt">
+        <p>Купи крутую футболку и стань другом программиста!</p>
+        <br/>
+        <br/>
+        <br/>
+
+        <h1></h1>
+
+        <div style="text-align: left">
+            <ul>
+                <li>Высокотехнологичная футболка</li>
+                <li>Самые низкие цены</li>
+                <li>Сидит безупречно на ком угодно</li>
+                <li></li>
+                <li>Любые цвета белого</li>
+            </ul>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+
+    </div>
+    <p class="podpis">
+        designed by
+        <a href=''>
+            Айкут
+        </a>
+        чисто ради прикола
+    </p>
+
+</section>
+<nav id="menu">
+    <a href="{{ path('vizitka_homepage') }}" class="">
+        ОБО МНЕ
+    </a>
+    <a href="{{ path('vizitka_service') }}" class="">
+        ЗАКАЖИ СЕБЕ САЙТ, ЗАСРАНЕЦ!
+    </a>
+    {#<a href="." class="selected">#}
+        {#КУПИ ФУТБОЛКУ, ЗАСРАНЕЦ!#}
+    {#</a>#}
+</nav>
+
+<img src="{{ asset('public/picture.png') }}" id="puwka" />
+</body>
+</html>

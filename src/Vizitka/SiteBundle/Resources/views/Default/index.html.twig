@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WEB-Программирование</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{{ asset('public/style.css') }}" type="text/css">
+</head>
+<body>
+<nav id="menu">
+    <a href="." class="selected">
+        ОБО МНЕ
+    </a>
+    <a href="{{ path('vizitka_service') }}" class="">
+        ЗАКАЖИ СЕБЕ САЙТ, ЗАСРАНЕЦ!
+    </a>
+    <a href="{{ path('vizitka_contact') }}" class="">
+        КУПИ ФУТБОЛКУ, ЗАСРАНЕЦ!
+    </a>
+</nav>
+
+<section id="content">
+    <div class="content">
+        <hgroup>
+            <h1>Программирование, мать твою!</h1>
+            <h2>Это тебе не в контру играть!</h2>
+        </hgroup>
+        <p>Я программист, мать твою, которого 4 года насиловали в универе компьютерной инженерией</p>
+        <p>Меня уже задолбали такие предметы, как <em>Mantıksal Tasarım</em>, <em>Yazılım Mühendisliği</em>, <em>C#</em>, <em>Yapay Zeka</em>, <em> и т.д. </em> ...<strong>мать твою, программирование</strong>.</p>
+        <p>Я устал слышать слова типа "Тыж программист. Почини мой комп!" ... <strong>мать твою, программирование</strong>.</p>
+        <p>Я уничтожу все стереотипы сложивщиеся о программистах... <strong>мать твою, программирование.</strong></p>
+        <div id="separator">* * * *</div>
+
+        <h2>Что Я делаю?</h2>
+
+        <table cellpadding="10" border="1">
+            <tr><th>Творю и Создаю</th><th>Совершенствуюсь</th><th>Отдыхаю</th></tr>
+
+            <tr><td>Web-приложения</td><td><em>PHP, XML, HTML</em></td><td><b>Сноуборд</b></td></tr>
+            <tr><td>Desktop-приложения</td><td><em>CSS, SQL, C#</em></td><td><b>Плавание</b></td></tr>
+            <tr><td>Учебные материалы</td><td><em>Symfony,Bootstrap </em></td><td><b>Игры</b></td></tr>
+            <tr><td>Android-приложения</td><td><em>Android OS</em></td><td><b>Бег</b></td></tr>
+        </table>
+        <p class="podpis">
+            designed by
+            <a href=''>
+                Айкут
+            </a>
+        </p>
+
+    </div>
+
+</section>
+<nav id="menu">
+    {#<a href="." class="selected">#}
+        {##}
+    {#</a>#}
+    <a href="{{ path('vizitka_service') }}" class="">
+        ЗАКАЖИ СЕБЕ САЙТ, ЗАСРАНЕЦ!
+    </a>
+    <a href="{{ path('vizitka_contact') }}" class="">
+        КУПИ ФУТБОЛКУ, ЗАСРАНЕЦ!
+    </a>
+</nav>
+
+<img src="{{ asset('public/picture.png') }}" id="puwka" />
+</body>
+</html>

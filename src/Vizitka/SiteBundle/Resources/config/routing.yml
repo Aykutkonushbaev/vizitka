@@ -1,0 +1,11 @@
+vizitka_homepage:
+    pattern:  /vizitka/index/
+    defaults: { _controller: VizitkaBundle:Default:index }
+
+vizitka_service:
+    pattern:  /vizitka/service/
+    defaults: { _controller: VizitkaBundle:Default:service }
+
+vizitka_contact:
+    pattern:  /vizitka/contact/
+    defaults: { _controller: VizitkaBundle:Default:contact }

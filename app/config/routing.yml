@@ -1,0 +1,19 @@
+vizitka:
+    resource: "@VizitkaBundle/Resources/config/routing.yml"
+    prefix:   /
+
+shop_user:
+    resource: "@ShopUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+hello:
+    resource: "@HelloBundle/Resources/config/routing.yml"
+    prefix:   /s
+
+blog:
+    resource: "@BlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
+#AcmeHelloBundle:
+#    resource: "@AcmeHelloBundle/Resources/config/routing.yml"
+#    prefix:   /hello

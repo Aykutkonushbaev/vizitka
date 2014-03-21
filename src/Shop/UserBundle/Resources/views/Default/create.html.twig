@@ -1,0 +1,55 @@
+{#{{ form_start (form) }}#}
+
+{#{{ form_label (form.name) }}#}
+{#{{ form_widget (form.name) }}#}
+
+{#{{ form_label (form.lastname) }}#}
+{#{{ form_widget (form.lastname) }}#}
+
+{#{{ form_errors (form.lastname) }}#}
+
+{#{{ form_end(form) }}#}
+
+<html>
+<head>
+    <title>Кошуу</title>
+    <link rel="stylesheet" href="{{ asset('public/style.css') }}" >
+    <link rel="stylesheet" href="{{ asset('public/bootstrap.min.css') }}">
+</head>
+<body>
+<div class="container">
+    <div class="span10 offset1">
+        <div class="row">
+            <h3>Жаны колдонуучу кошуу</h3>
+        </div>
+        {{ form_start (form) }}
+
+            <div class="control-group">
+                {{ form_label (form.name) }}
+                {#<div class="controls">#}
+                {{ form_widget (form.name) }}
+                {#</div>#}
+            </div>
+            <div class="control-group">
+                {{ form_label (form.lastname) }}
+                <div class="controls">
+                    {{ form_widget (form.lastname) }}
+                </div>
+            </div>
+            <div class="control-group">
+                {{ form_label (form.age) }}
+                <div class="controls">
+                    {{ form_widget (form.age) }}
+                </div>
+            </div>
+            <div class="form-actions">
+                {{ form_widget(form.Create,{'attr':{'class':"btn btn-success"}}) }}
+
+                <a class="btn btn-info" href="{{ path('shop_user_homepage') }}">Артка кайт</a>
+            </div>
+
+        {{ form_end(form) }}
+    </div>
+</div>
+</body>
+</html>

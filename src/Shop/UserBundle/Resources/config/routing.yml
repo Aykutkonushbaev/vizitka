@@ -1,0 +1,19 @@
+shop_user_homepage:
+    pattern:  /user/list/
+    defaults: { _controller: ShopUserBundle:Default:index }
+
+shop_user_delete:
+    pattern:  /user/delete/{user}/
+    defaults: { _controller: ShopUserBundle:Default:delete }
+
+shop_user_read:
+    pattern: /user/read/{user}/
+    defaults: { _controller: ShopUserBundle:Default:read }
+
+shop_user_create:
+    pattern: /user/create/
+    defaults: { _controller: ShopUserBundle:Default:create }
+
+shop_user_update:
+    pattern: /user/update/{user}/
+    defaults: { _controller: ShopUserBundle:Default:update }

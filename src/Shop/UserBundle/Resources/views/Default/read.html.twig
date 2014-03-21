@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ asset('public/style.css') }}" >
+        <link rel="stylesheet" href="{{ asset('public/bootstrap.min.css') }}">
+    </head>
+    <body>
+        <div class="container">
+            <div class="span10 offset1">
+                <div class="row">
+                    <h3>Колдонуучу жонундо маалымат алуу</h3>
+                </div>
+                <div class="form-horizontal">
+                    <div class="control-group">
+                        <label class="control-label">Катардагы номери:</label>
+                        <div class="controls">
+                            <label class="checkbox">
+                                {{ users.id }}
+                            </label>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">Name:</label>
+                        <div class="controls">
+                            <label class="checkbox">
+                                {{ users.name }}
+                            </label>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">Surname:</label>
+                        <div class="controls">
+                            <label class="checkbox">
+                                {{ users.surname }}
+                            </label>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">Age:</label>
+                        <div class="controls">
+                            <label class="checkbox">
+                                {{ users.age }}
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <a class="btn" href="{{ shop_user_homepage }}">Артка кайт</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

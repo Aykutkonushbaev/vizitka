@@ -1,0 +1,151 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+a, img, strong, ul, li,
+table,  tbody, tfoot, thead, tr, th, td,
+menu, nav, section{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+body {
+  background: #5768B8;
+  text-align: center;
+  line-height: 1.5;
+  font-family: "Verdana";
+  color: white;
+  font-size: 112.5%;
+  position: relative;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-weight: normal;
+  color: white;
+}
+
+body h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin-bottom: 0.50em;
+}
+body h2 {
+  font-size: 2em;
+  margin-bottom: 0.75em;
+}
+body h3 {
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 1.00em;
+}
+body h4 {
+  font-size: 1.2em;
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+}
+body h5 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 1.50em;
+}
+body h6 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+body a {
+  text-decoration: underline;
+  color: white;
+}
+body table {
+  margin-bottom: 1.4em;
+  width: 100%;
+}
+body th {
+  font-weight: bold;
+}
+body th, body td {
+  padding: 4px 10px 4px 5px;
+}
+
+img#puwka {
+  width: 35%;
+  margin-top: 0px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 50;
+  right: 0px;
+}
+img#tshirt {
+    width: 290px;
+}
+
+
+nav#menu {
+  font-family: "Verdana";
+  text-align: center;
+  background: #374289;
+  font-size: 1.4em;
+  display: block;
+  padding-right: 27%;
+  margin: 20px auto;
+}
+nav#menu a {
+  color: #4D5EBC;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 20px;
+  transition-property: color;
+  transition-duration: 0.3s;
+}
+nav#menu a:hover {
+  color: #d0dcff;
+}
+nav#menu a.selected {
+  color: white;
+}
+
+#content {
+  position: relative;
+  max-width: 800px;
+  margin: 0px auto;
+  margin-top: 60px;
+  padding-right: 25%;
+  padding-bottom: 20px;
+}
+#content .content {
+  max-width: 600px;
+  margin: 0px auto;
+  padding: 10px;
+}
+#content table th {
+  text-align: center;
+}
+#content table td {
+  text-align: center;
+  border: 1px solid #1F358E;
+}
+
+p.podpis {
+    margin-top: 100px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 0.8em;
+  height: 22px;
+  line-height: 22px;
+}
+p.podpis a {
+  width: 146px;
+  height: 22px;
+  display: block;
+  margin: 0px auto;
+  margin-top: 10px;
+}

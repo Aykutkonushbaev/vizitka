@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ЗАКАЗ САЙТА!</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{{ asset('public/style.css') }}" type="text/css">
+</head>
+<body>
+<nav id="menu">
+    <a href="{{ path('vizitka_homepage') }}" class="">
+        ОБО МНЕ
+    </a>
+    <a href="." class="selected">
+        ЗАКАЖИ СЕБЕ САЙТ, ЗАСРАНЕЦ!
+    </a>
+    <a href="{{ path('vizitka_contact') }}" class="">
+        КУПИ ФУТБОЛКУ, ЗАСРАНЕЦ!
+    </a>
+</nav>
+
+
+<section id="content">
+<div class="content">
+<h1>Мои услуги</h1>
+
+<p>Сколько будут стоит мои услуги?</p>
+<p> - нормально будут стоит.</p>
+    </br>
+    <h4><a href="">WEB-Приложения</a></h4>
+    <h4><a href="">Desktop-Приложения</a></h4>
+    <h4><a href="">Mobile-Приложения</a></h4>
+
+
+<p> </p>
+    <h2>Курсы</h2>
+<h4><a href="">Английский язык</a></h4>
+<h4><a href="">Компьютерные игры</a></h4>
+
+<h2>Профессиональные знания</h2>
+
+<div style="text-align: left">
+<table>
+
+    <tr><th colspan="3">Языки Программирования</th>
+    <tr>
+
+        <td><a href="#">C / C++</a></td>
+        <td><a href="#">Delphi / Pascal</a></td>
+        <td><a href="#">C#</a></td>
+    </tr>
+
+    <tr>
+        <td><a href="#">PHP</a></td>
+        <td><a href="#">HTML / CSS</a></td>
+        <td><a href="#">SQL</a></td>
+    </tr>
+    <tr>
+        <td><a href="#">Java</a></td>
+        <td><a href="#">JavaScript</a></td>
+        <td><a href="#">Lisp</a></td>
+    </tr>
+
+    <tr><th colspan="3">Фреймворки</th></tr>
+    <tr>
+        <td><a href="#">Symfony</a></td>
+        <td><a href="#">Django</a></td>
+        <td><a href="#">.NET</a></td>
+    </tr>
+    <tr>
+        <td><a href="#">Zend</a></td>
+        <td><a href="#">Ruby on Rails</a></td>
+        <td><a href="#">Bootstrap</a></td>
+    </tr>
+    <tr><th colspan="3">Инструменты</th></tr>
+    <tr>
+        <td><a href="#">Maven</a></td>
+        <td><a href="#">Git</a></td>
+        <td><a href="#">Linux</a></td>
+    </tr>
+    <tr>
+        <td><a href="#">Hibernate</a></td>
+        <td><a href="#">Doctrine</a></td>
+        <td><a href="#">Composer</a></td>
+    </tr>
+</table>
+</div>
+
+</div>
+<p class="podpis">
+    designed by
+    <a href=''>
+        Айкут
+    </a>
+</p>
+
+</section>
+<nav id="menu">
+    <a href="{{ path('vizitka_homepage') }}" class="">
+        ОБО МНЕ
+    </a>
+    {#<a href="{{ path('vizitka_service') }}" class="selected">#}
+        {#ЗАКАЖИ СЕБЕ САЙТ, ЗАСРАНЕЦ!#}
+    {#</a>#}
+    <a href="{{ path('vizitka_contact') }}" class="">
+        КУПИ ФУТБОЛКУ, ЗАСРАНЕЦ!
+    </a>
+</nav>
+
+<img src="{{ asset('public/picture.png') }}" id="puwka" />
+</body>
+</html>
